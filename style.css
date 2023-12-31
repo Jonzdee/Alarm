@@ -1,5 +1,6 @@
 /* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -74,3 +75,13 @@ body{
   border-radius: 5px;
   background: #4A98F7;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue !important;
+      
+      
+
+    };
+    
+  }
